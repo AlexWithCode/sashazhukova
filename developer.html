@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <html lang="en"></html>
+    <title>sasha-zhukova-developer-experience</title>
+    <!-- AOS.js -->
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="script-aos.js"></script>
+    <!-- Navigation Script -->
+    <script defer src="navbar.js"></script>
+    
+    <!-- Favicon - getting browser tab icon -->
+    <!-- <link rel="icon" href="favicon.ico"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <!-- <link rel="manifest" href="/site.webmanifest">  -->
+    <!-- Font Awesome - getting vector icons and social logos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Tailwind Library - getting CSS framework packed -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"/>
+</head>
+<body class="text-gray-800 antialiased">
+
+  <!-- Navigation -->
+  <nav class="top-0 absolute z-50 w-full bg-black active\:bg-pink-600 flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+    <div class="container px-4 mx-auto flex flex-row items-center justify-between">
+      <!-- Nav Left Side -->
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="index.html#play" target="_blank">
+          <!-- Nav Title -->
+          BACK
+        </a>
+        
+        
+      </div>
+      <!-- Nav Right Side -->
+      <ul class="flex flex-row lg:flex-row list-none lg:ml-auto">
+        <!-- Social Media Button -->
+        <li class="flex items-center">
+          <a class="lg:text-white lg:hover:text-gray-300 text-gray-200 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
+            href="https://www.facebook.com/alexwithfb" target="_blank">
+            <!-- Icon -->
+            <i class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "></i>
+            <span class="lg:hidden inline-block ml-2">Facebook</span>
+          </a>
+        </li>
+        <!-- Social Media Button -->
+        <li class="flex items-center">
+          <a class="lg:text-white lg:hover:text-gray-300 text-gray-200 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
+            href="https://www.instagram.com/life_inspiration_seeker/" target="_blank">
+            <!-- Icon -->
+            <i class="lg:text-gray-300 text-gray-500 fab fa-instagram text-lg leading-lg "></i>
+            <span class="lg:hidden inline-block ml-2">Instagram</span>
+          </a>
+        </li>
+        <!-- Social Media Button -->
+        <li class="flex items-center">
+          <a class="lg:text-white lg:hover:text-gray-300 text-gray-200 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
+            href="https://t.me/AlexWith" target="_blank">
+            <!-- Icon -->
+            <i class="lg:text-gray-300 text-gray-500 fab fa-telegram text-lg leading-lg "></i>
+            <span class="lg:hidden inline-block ml-2">Telegram</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <!-- End of Navigation -->
+
+  <!-- About Section -->
+  <section class="relative py-20 bg-gray-100">
+    <!-- Making Polygon Shape in Background -->
+    <div
+      class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+      style="height: 80px; transform: translateZ(0);"
+    >
+      <svg
+        class="absolute bottom-0 overflow-hidden"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        version="1.1"
+        viewBox="0 0 2560 100"
+        x="0"
+        y="0"
+      >
+        <polygon
+          class="text-white fill-current"
+          points="2560 0 2560 100 0 100"
+        ></polygon>
+      </svg>
+    </div>
+    <!-- Section Container -->
+    <div class="container mx-auto px-4">
+      <div class="items-center flex flex-wrap">
+        <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="flip-right" data-aos-delay="1000"> 
+          <!-- Image -->
+          <img
+            alt="..."
+            class="max-w-full rounded-lg shadow-lg"
+            src="gpn-3.jpg"
+          />
+        </div>
+        
+        <!-- Text Box Container-->
+        <div class="w-full md:w-5/12 ml-auto mr-auto px-4  " data-aos="zoom-in-left" data-aos-delay="1000">
+          <div class="md:pr-12">
+              <!-- <div class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"> -->
+                  <!-- Icon -->
+                  <!-- <i class="fas fa-rocket text-xl"></i> -->
+              <!-- </div> -->
+              <!-- Text Box -->
+              <h1 class="mb-6 text-3xl text-justify font-semibold mt-24">Beginner Developer</h1>
+              <a class="mb-2 text-2xl font-semibold hover:text-pink-600" href="https://taplink.cc/life_inspiration_seeker" target="_blank">JavaScript</a>
+              <h3 class="font-semibold">2019-2022</h3>
+              <h3 class="mb-2 font-semibold">Saint-Petersburg, Russia, Prague, Czech Republic</h3>
+              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-600">
+                I am very passionate about the transfer of human labor and knowledge to machines and robots. This means that in the future humanity will be able to do other things and will be able to do more, and therefore to develop more. I want to be directly involved in developing and automatization with my own vision of how it should be.
+              </p>
+              <p class="mt-6 text-lg text-justify leading-relaxed text-gray-600">
+                I see a fantastic opportunity to jump to a long-term IT career, to develop my skills, and help the IT companies. After all, I really enjoy team working and I have a lot of experience with this.
+              </p>
+              <p class="mt-6 text-lg text-justify leading-relaxed text-gray-600">
+                I'm planning to become a professional developer. Scientists have found that to become a professional at something, we need to do 10,000 hours of repeating and progressing this something. After such a time, the brain feels like a pro at it. So I need just for about two years to become my beginner IT skills till professional.
+              </p>
+              <p class="mt-6 text-lg text-justify leading-relaxed text-gray-600">
+                Now I’m learning and working with JavaScript + HTML + CSS, TypeScript + Angular + CLI. I know how to work with Node.js and Git. I’m training with Pluralsight, Udemy, Heroku, learning courses about development. I’m making my personal web page, which you are reading.
+              </p>
+              <p class="mt-6 text-lg text-justify leading-relaxed text-gray-600">
+                It’s really my chance to move to an IT career with a little but pretty useful experience.
+              </p>
+              <p class="font-bold text-gray-800 mt-8">
+            </div>
+        </div>
+        <div class="w-full md:w-5/12 px-4 mr-auto ml-auto mt-16 " data-aos="zoom-in-right">
+          <!-- Text Box -->
+          <!-- <div class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-500"> -->
+            <!-- Icon -->
+            <!-- <i class="fas fa-star text-xl"></i> -->
+          <!-- </div> -->
+          <h3 class="text-3xl mb-2 font-semibold leading-normal">
+            Proficient in:
+          </h3>
+          <!-- List -->
+          <ul class="list-none mt-6">
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                      <!-- Icon -->
+                      <i class="fab fa-twitter-square"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">
+                        Twitter-Integration-Documentation;
+                    </h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-5xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                      <!-- Icon -->
+                      <i class="fas fa-file-audio"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">W3Schools-Audio-DOM-Reference;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                      <!-- Icon -->
+                      <i class="fab fa-google"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Google-Loading-Third-Party-Script;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
+                      <!-- Icon -->
+                      <i class="fab fa-font-awesome-flag"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">FontAwesome-CDN-Download;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
+                      <!-- Icon -->
+                      <i class="fas fa-database"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Unsplash-API-Documentation;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                      <!-- Icon -->
+                      <i class="fas fa-spinner"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Loading-Animation-Generator;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                      <!-- Icon -->
+                      <i class="fas fa-images"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">CSS-Tricks-Picture-in-Picture;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
+                      <!-- Icon -->
+                      <i class="fas fa-icons"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">CSS-Tricks-External-Favicons;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
+                      <!-- Icon -->
+                      <i class="fab fa-firefox"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Mozilla-Screen-Capture-API;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
+                      <!-- Icon -->
+                      <i class="fas fa-server"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Hiding-API-Keys-On-Server;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-4">
+                      <!-- Icon -->
+                      <i class="fas fa-scroll"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Animate-on-Scroll-Library;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
+                      <!-- Icon -->
+                      <i class="fas fa-sync-alt"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Async-Defer-Visualized;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
+                      <!-- Icon -->
+                      <i class="fas fa-question-circle"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Mozilla-CSS-Variables;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-5xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                      <!-- Icon -->
+                      <i class="fab fa-openid"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Undraw-Illustrations;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                      <!-- Icon -->
+                      <i class="fas fa-volume-up"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Text-to-Speech-API;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-5xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
+                      <!-- Icon -->
+                      <i class="fab fa-font-awesome"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">FontAwesome-Icons;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                      <!-- Icon -->
+                      <i class="fas fa-code"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Visual-Studio-Code;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
+                      <!-- Icon -->
+                      <i class="fas fa-adjust"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Light-Dark-Mode;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
+                      <!-- Icon -->
+                      <i class="fas fa-wrench"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Fix-CORS-Error;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
+                      <!-- Icon -->
+                      <i class="fas fa-paint-roller"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Hero-Patterns;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-5xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
+                      <!-- Icon -->
+                      <i class="fas fa-file-code"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Tailwind-CSS;</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-5xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                      <!-- Icon -->
+                      <i class="fas fa-font"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Google-Fonts.</h4>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          <!-- <a
+            href="https://www.creative-tim.com/framework/tailwind-starter-kit"
+            class="font-bold text-gray-800 mt-8"
+            >Check Tailwind Starter Kit!
+          </a> -->
+        </div>
+
+        <!-- Image Cap & Text Card -->
+        <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-48 ">
+          <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-500">
+            <!-- Image -->
+            <img
+              alt="Sasha Zhukova"
+              src="why-left-2.jpg"
+              class="w-full align-middle rounded-t-lg"
+            />
+            <blockquote class="relative p-8 mb-4">
+              <!-- Making Polygon Shape in Card -->
+              <svg
+                preserveAspectRatio="none"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 583 95"
+                class="absolute left-0 w-full block"
+                style="height: 95px; top: -94px;"
+              >
+                <polygon
+                  points="-30,95 583,95 583,65"
+                  class="text-pink-500 fill-current"
+                ></polygon>
+              </svg>
+              <!-- Text Box -->
+              <h4 class="text-xl font-bold text-white">
+                Why Developing?
+              </h4>
+              <p class="text-md font-light mt-4 text-white">
+                In 2018, I was very confused by the economic situation in my country, my professions as an Accounting and Contract Coordinator or Project Administrator became much less paid. Then I seriously thought about changing my profession and started learning something about development.
+              </p>
+              <p class="text-md font-light mt-4 text-white">
+                I brought all the processes to perfection at my last job. And I had enough time to start learning development by seriously.
+              </p>
+              <p class="text-md font-light mt-4 text-white">
+                And then I left my previous job to come to this country, to look for new opportunities and take a new step in my career.
+              </p>
+              <p class="text-md font-light mt-4 text-white">
+                Since childhood, I have had a passion for mathematics, problem-solving, physics, chemistry. I truly enjoyed writing down some problems, an infinite number of letters and numbers, formulas, and writing down complex solutions. Now I realized that it's all about passion for coding, isn't it? 
+              </p>
+              <p class="text-md font-light mt-4 text-white">
+                Coding is like writing music with notes. Coding is like music to a composer for a developer. I used to play piano in my childhood. Therefore, I am attracted to coding greatly.
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of About Section -->  
+</main>
+
+  <!-- Footer Section -->
+  <footer class="relative bg-gray-300 pt-8 pb-6">
+    <!-- Making Polygon Shape in Background -->
+    <div
+      class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+      style="height: 80px; transform: translateZ(0);"
+    >
+      <svg
+        class="absolute bottom-0 overflow-hidden"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        version="1.1"
+        viewBox="0 0 2560 100"
+        x="0"
+        y="0"
+      >
+        <polygon
+          class="text-gray-300 fill-current"
+          points="2560 0 2560 100 0 100"
+        ></polygon>
+      </svg>
+    </div>
+    <!-- Section Container -->
+    <div class="container mx-auto px-4">
+      <!-- Text Box Container -->
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-6/12 px-4">
+          <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+          <h5 class="text-lg mt-0 mb-2 text-gray-700">
+            Find me on any of these platforms, I respond 1-2 business days.
+          </h5>
+          <!-- Social Media Buttons -->
+          <div class="mt-6">
+            <a href="https://www.facebook.com/alexwithfb" target="_blank"><i class="fab fa-facebook-square bg-white text-blue-600 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
+            <a href="mailto:tosashazhukova@gmail.com" target="_blank"><i class="fab fa-dribbble bg-white text-pink-400 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
+            <a href="https://t.me/AlexWith" target="_blank"><i class="fab fa-telegram bg-white text-gray-900 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
+          </div>
+        </div>
+      <!-- List Container
+      <div class="w-full lg:w-6/12 px-4">
+          <div class="flex flex-wrap items-top mb-6">
+            List 1
+            <div class="w-full lg:w-4/12 px-4 ml-auto">
+              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Useful Links</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://www.creative-tim.com/presentation">About Us</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://blog.creative-tim.com">Blog</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://www.github.com/creativetimofficial">Github</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://www.creative-tim.com/bootstrap-themes/free">Free Products</a>
+                </li>
+              </ul>
+            </div>
+            List 2
+            <div class="w-full lg:w-4/12 px-4">
+              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Other Resources</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md">MIT License</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://creative-tim.com/terms">Terms &amp; Conditions</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://creative-tim.com/privacy">Privacy Policy</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://creative-tim.com/contact-us">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <!-- Line Break -->
+      <hr class="my-6 border-gray-400" />
+      <!-- Footer Text -->
+      <div class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div class="text-sm text-gray-600 font-semibold py-1">
+            Copyright © 2021-2022
+            <a
+              href="https://taplink.cc/life_inspiration_seeker"
+              class="text-gray-600 hover:text-gray-900"
+              >AlexwithCode</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer Section -->
+</body>
+</html>
