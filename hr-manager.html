@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <html lang="en"></html>
-    <title>sasha-zhukova-hr-manager-experience</title>
+    <title>sasha-zhukova-human-resources-assistant-experience</title>
     <!-- AOS.js -->
     <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script defer src="script-aos.js"></script>
@@ -13,10 +13,10 @@
     <script defer src="navbar.js"></script>
     
     <!-- Favicon - getting browser tab icon -->
-    <!-- <link rel="icon" href="favicon.ico"> -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" href="favicon-32x32.png">
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
     <!-- <link rel="manifest" href="/site.webmanifest">  -->
     <!-- Font Awesome - getting vector icons and social logos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
@@ -28,14 +28,49 @@
 <body class="text-gray-800 antialiased">
 
   <!-- Navigation -->
-  <nav class="top-0 absolute z-50 w-full bg-black active\:bg-pink-600 flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+  <nav class="fixed top-0 left-0 z-50 w-full bg-black active\:bg-pink-600 flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
     <div class="container px-4 mx-auto flex flex-row items-center justify-between">
+      <!-- Home icon -->
+      <a class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-no-wrap text-white" 
+        href="index.html#play" target="_blank">
+        <!-- Icon -->
+        <i>
+          <img src="favicon-32x32.png" alt="...">
+        </i>
+      </a>
       <!-- Nav Left Side -->
-      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-        <button class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" onclick="javascript:history.back(); return false;">
+      <div class="w-full relative flex-row justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <button class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-no-wrap text-white" onclick="javascript:history.back(); return false;">
           <!-- Nav Title -->
-          BACK
+          back
         </button>
+        <a class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-no-wrap text-white" href="project-administrator.html">
+          <!-- Nav Title -->
+          project management
+        </a>
+        <a class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-no-wrap text-white" href="business-analyst.html">
+          <!-- Nav Title -->
+          business analysis
+        </a>
+        <a class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-no-wrap text-white" href="contract-account-coordinator.html">
+          <!-- Nav Title -->
+          contracting and accounting
+        </a>
+        <a class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-no-wrap text-white" href="marketing-specialist.html">
+          <!-- Nav Title -->
+          marketing
+        </a>
+        <a class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-no-wrap text-white" href="developer.html">
+          <!-- Nav Title -->
+          developing
+        </a>  
+        <!-- <button
+          class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+          type="button" 
+          style="transition: all 0.15s ease 0s;"
+        ><a href="https://alexwithcode.github.io/sasha-zhukova/#start">
+          MY EXPERIENCE</a>
+        </button> -->
       </div>
       <!-- Nav Right Side -->
       <ul class="flex flex-row lg:flex-row list-none lg:ml-auto">
@@ -92,52 +127,43 @@
       </svg>
     </div>
     <!-- Section Container -->
-    <div class="container mx-auto px-4">
-      <div class="items-center flex flex-wrap">
-        <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="flip-right" data-aos-delay="1000"> 
+    <div class="container mx-auto px-4 bg-gray-100">
+      <div class="items-center flex flex-wrap bg-gray-100">
+        <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mt-12" data-aos="flip-right"> 
           <!-- Image -->
           <img
             alt="..."
-            class="max-w-full rounded-lg shadow-lg mt-12"
-            src="me-ulnart.jpg"
-          />
-          <!-- Image -->
-          <img
-            alt="..."
-            class="max-w-full mt-12 rounded-lg shadow-lg"
-            src="moj-ulmart.jpg"
-          />
-          <!-- Image -->
-          <img
-            alt="..."
-            class="max-w-full mt-12 rounded-lg shadow-lg"
-            src="team-ulmart.jpg"
+            class="max-w-full rounded-lg shadow-lg"
+            src="me-hr-assistant.jpg"
           />
         </div>
         
         <!-- Text Box Container-->
-        <div class="w-full md:w-5/12 ml-auto mr-auto px-4  " data-aos="zoom-in-left" data-aos-delay="1000">
+        <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
           <div class="md:pr-12">
               <!-- <div class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"> -->
                   <!-- Icon -->
                   <!-- <i class="fas fa-rocket text-xl"></i> -->
               <!-- </div> -->
               <!-- Text Box -->
-              <h1 class="mb-6 text-3xl font-semibold mt-24">Business Competence Center Administrator</h1>
-              <a class="mb-2 text-2xl font-semibold hover:text-pink-600" href="https://ru.wikipedia.org/wiki/%D0%AE%D0%BB%D0%BC%D0%B0%D1%80%D1%82" target="_blank">Ulmart.ru Online Retailer</a>
-              <h3 class="font-semibold">January 2013 – October 2013</h3>
+              <h1 class="mb-6 text-3xl font-semibold mt-24">Human Resources Assistant</h1>
+              <a class="mb-2 text-2xl font-semibold hover:text-pink-600" href="https://europlan.ru/" " target="_blank">Europlan Leasing Company</a>
+              <h3 class="font-semibold">July 2012 – December 2012</h3>
               <h3 class="mb-2 font-semibold">Saint-Petersburg, Russia</h3>
-              <p class="mt-8 text-justify text-lg leading-relaxed text-gray-600">
-                I worked for 2 years at the headquarters of the largest Russian online company, whose turnover amounted to more than $1 billion, according to Forbes in 2013. I started my career with this company as an Assistant in a Training Center for employees. Then I got promoted to the Business Competence Center (BCC) Administrator position. After a year of work at the BCC, I was promoted to the <a class="hover:text-pink-600" href="project-office-administrator.html" target="_blank" >Project Office Administrator position</a>.
-              </p>  
-              <p class="mt-8 text-justify text-lg leading-relaxed text-gray-600">
-                Ulmart's representative offices were located in more than 240 cities in Russia. The vehicle fleet consisted of 300 vehicles of varying tonnage. The company's assortment was represented by more than 120 thousand products, and the total assortment amounted to more than 12 million products.
-              </p>   
-              <p class="mt-8 text-justify text-lg leading-relaxed text-gray-600">
-                The corporate culture of Ulmart, built by the methods of the Business Competence Center, where I was hired to work as an administrative assistant, was so insightful from the first day that working on Friday until 11 pm was a pleasant addiction.
-              </p>  
-              <p class="mt-8 text-justify text-lg leading-relaxed text-gray-600">
-                This young energetic powerful company has set a very high bar for the conditions of self-realization, which I am still trying to find in all subsequent positions, but I have not found it yet. 
+              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-600" data-aos="zoom-in-left">
+                Europlan is a car leasing company that finances the purchase of cars on lease for legal entities and individuals.
+              </p>
+              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-600" data-aos="zoom-in-right">
+                Europlan's regional network includes 83 offices throughout the Russian Federation. The company needed a high-quality HR selection of qualified and polite specialists for the remote contact center who are ready to help with resolving any issues regardless of the location of the client.
+              </p>
+              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-600" data-aos="zoom-in-left">  
+                Since the geography of the company is quite extensive, the number of employees hired per day could reach more than 10 people.
+              </p>
+              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-600" data-aos="zoom-in-right">
+                At the same time, Eroplan also has a high turnover rate among sales managers. In addition to the voluminous recruitment process, it was necessary to ensure a large number of layoffs of employees. The company lacked human resources to process documents for newly hired and dismissed personnel.
+              </p>
+              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-600" data-aos="zoom-in-left">
+                As a decision, I was invited to this company as an HR Department Assistant.
               </p>
               <p class="font-bold text-gray-800 mt-8">
                 Proficient in:
@@ -173,85 +199,20 @@
               <li class="py-2">
                 <div class="flex items-center">
                   <div>
-                    <span class="text-3xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-4">
-                      <!-- Icon -->
-                      <i class="fas fa-file-excel"></i>
-                    </span>
-                  </div>
-                  <div>
-                    <h4 class="text-gray-600">Microsoft Office Excel;</h4>
-                  </div>
-                </div>
-              </li>
-              <li class="py-2">
-                <div class="flex items-center">
-                  <div>
                     <span class="text-3xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
                       <!-- Icon -->
                       <i class="fas fa-cubes"></i>
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">ERP Systems Literacy;</h4>
-                  </div>
-                </div>
-              </li>
-              <li class="py-2">
-                <div class="flex items-center">
-                  <div>
-                    <span class="text-3xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
-                      <!-- Icon -->
-                      <i class="fas fa-calculator"></i>
-                    </span>
-                  </div>
-                  <div>
-                    <h4 class="text-gray-600">Budget Coordination;</h4>
-                  </div>
-                </div>
-              </li>
-              <li class="py-2">
-                <div class="flex items-center">
-                  <div>
-                    <span class="text-3xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
-                      <!-- Icon -->
-                      <i class="fas fa-headset"></i>
-                    </span>
-                  </div>
-                  <div>
-                    <h4 class="text-gray-600">Performer Supporting;</h4>
-                  </div>
-                </div>
-              </li>
-              <li class="py-2">
-                <div class="flex items-center">
-                  <div>
-                    <span class="text-3xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
-                      <!-- Icon -->
-                      <i class="fas fa-file-signature"></i>
-                    </span>
-                  </div>
-                  <div>
-                    <h4 class="text-gray-600">Financial Reporting;</h4>
-                  </div>
-                </div>
-              </li>
-              <li class="py-2">
-                <div class="flex items-center">
-                  <div>
-                    <span class="text-3xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
-                      <!-- Icon -->
-                      <i class="fas fa-chart-pie"></i>
-                    </span>
-                  </div>
-                  <div>
-                    <h4 class="text-gray-600">KPI Reporting.</h4>
+                    <h4 class="text-gray-600">ERP Systems Literacy.</h4>
                   </div>
                 </div>
               </li>
             </ul>
           </div>
         </div>
-        <div class="w-full md:w-5/12 px-4 mr-auto ml-auto mt-16 " data-aos="zoom-in-right">
+        <div class="w-full md:w-5/12 px-4 mr-auto ml-auto mt-16">
           <!-- Text Box -->
           <!-- <div class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-500"> -->
             <!-- Icon -->
@@ -260,106 +221,95 @@
           <h3 class="text-3xl mb-2 font-semibold leading-normal">
             Professional Experience
           </h3>
-          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700">
-            The main area of responsibility of the Assistant position was the technical implementation of administrative decisions of the Training Center.
-            
-          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700">
-            Every morning, I prepared the place where training sessions for new employees were held. These were both offline training sessions and online conferences in dozens of regions of Russia.
-          </p>  
-          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700">
-            I provided the administrative organization of hundreds of training participants and technically equipped the training placement for a successful online conference, using equipment and software from Polycom. I quickly and discreetly solved technical problems together with the Ulmart Technical Support Department, making 5-10 requests a day.
-          </p>  
-          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700">
-            I also organized business trips for colleagues, kept a database of training participants, made a training schedule, filled out feedback forms, and sent equipment by courier delivery.
-          </p>  
-          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700">
-            After half a year, I was promoted to the Administrator position. To my responsibilities were added the functions of management and coordination of contracts and accounts.
-          </p>  
-          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700">
-            I described the KPI system, which began to be introduced in the company by top managers, for the administrative department, as well as a structural work plan, Gantt diagrams, the process of concluding contracts, and coordinating payment of invoices. I have created tools for monitoring the effectiveness of the Business Competence Center. At the same time, I made monthly plans and reports on the work activities of seven workers.
+          <p class="text-lg text-justify leading-relaxed mt-4 mb-8 text-gray-700" data-aos="zoom-in-right">
+            My tasks included meeting new employees and preparing and checking their documents for official employment in the Europlan leasing company. Then, during the first working day, I carried out the adaptation of five to ten new employees at their workplaces. This included providing access to internal confidential Customer Relationship Management (CRM) and financial reporting systems.
+          </p>
+          <p class="text-lg text-justify leading-relaxed mt-4 mb-8 text-gray-700" data-aos="zoom-in-left">  
+            On certain days of the week, I held a meeting of 3-5 quitting employees and provided registration with verification of their documents.
+          </p>
+          <p class="text-lg text-justify leading-relaxed mt-4 mb-8 text-gray-700" data-aos="zoom-in-right">
+            After my successful adaptation period, I have been given the responsibility of conducting an initial selection of candidates' resumes for vacant positions in Europlan. Based on the results of my selection, seven sales managers were hired. They accounted for 11% of all sales.
           </p>
           <!-- List -->
-          <p class="font-bold text-gray-800 mt-8 text-justify">
+          <p class="font-bold text-gray-800 mt-8">
             Main Tasks and Responsibilities
           </p>
             <ul class="list-none mt-6">
               <li class="py-2">
                 <div class="flex items-center">
                   <div>
-                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                    <span class="text-5xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
                       <!-- Icon -->
-                      <i class="fas fa-chalkboard-teacher"></i>
+                      <i class="fas fa-vote-yea"></i>
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600 mt-8 text-justify">
-                      Design and delivery of communication materials in an employee support system during the implementation of Human Resources programs for the development of business competencies of the talent pool.
-                    </h4>
+                    <h4 class="text-gray-600">Selection of candidates' resumes.</h4>
                   </div>
                 </div>
               </li>
               <li class="py-2">
                 <div class="flex items-center">
                   <div>
-                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
-                      <!-- Icon -->
-                      <i class="fas fa-hands-helping"></i>
-                    </span>
-                  </div>
-                  <div>
-                    <h4 class="text-gray-600 mt-2 text-justify">Partnership with regional operational stakeholders to monitor, escalate, or address inquiries/issues related to employee experience or change communication.</h4>
-                  </div>
-                </div>
-              </li>
-              <li class="py-2">
-                <div class="flex items-center">
-                  <div>
-                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
-                      <!-- Icon -->
-                      <i class="fas fa-comment-dots"></i>
-                    </span>
-                  </div>
-                  <div>
-                    <h4 class="text-gray-600 mt-2 text-justify">Collecting feedback on employee experience and assessing its impact on employee experience.</h4>
-                  </div>
-                </div>
-              </li>
-              <li class="py-2">
-                <div class="flex items-center">
-                  <div>
-                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                    <span class="text-5xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-4">
                       <!-- Icon -->
                       <i class="fas fa-people-carry"></i>
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600 mt-2 text-justify">Soft adaptation and technical equipment of workplaces of new employees.</h4>
+                    <h4 class="text-gray-600">Soft adaptation of new employees.</h4>
                   </div>
                 </div>
               </li>
               <li class="py-2">
                 <div class="flex items-center">
                   <div>
-                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                    <span class="text-6xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
                       <!-- Icon -->
-                      <i class="fas fa-people-carry"></i>
+                      <i class="fab fa-wpforms"></i>
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600 mt-2 text-justify">Audit and reporting of employees' business trips expenses.</h4>
+                    <h4 class="text-gray-600">Extremely accurate filling of forms and questionnaires.</h4>
                   </div>
                 </div>
               </li>
               <li class="py-2">
                 <div class="flex items-center">
                   <div>
-                    <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                    <span class="text-6xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
                       <!-- Icon -->
-                      <i class="fas fa-tasks"></i>
+                      <i class="fas fa-user-secret"></i>
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600 mt-2 text-justify">Verification and consolidation reports of KPI.</h4>
+                    <h4 class="text-gray-600">Maintaining highly confidential and sensitive information.</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-5xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
+                      <!-- Icon -->
+                      <i class="fas fa-desktop"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Using an HRMS (Human Resource Management System).</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-5xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-6">
+                      <!-- Icon -->
+                      <i class="fas fa-id-card"></i>
+                    </span>
+                  </div>
+                  <div>
+                    <h4 class="text-gray-600">Preparation and verification of personnel documentation.</h4>
                   </div>
                 </div>
               </li>
@@ -372,19 +322,13 @@
         </div>
 
         <!-- Image Cap & Text Card -->
-        <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-12">
-          <!-- Image -->
-          <img
-            alt="..."
-            class="max-w-full mt-12 rounded-lg shadow-lg mb-12"
-            src="u-ulmart-2.jpg"
-          />
+        <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-12 bg-gray-100">
           <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-500">
             <!-- Image -->
             <img
               alt="Sasha Zhukova"
-              src="u-ulmart.jpg"
-              class="w-full align-middle rounded-t-lg"
+              src="about-me.jpg"
+              class="w-full align-middle sm:align-top rounded-t "
             />
             <blockquote class="relative p-8 mb-4">
               <!-- Making Polygon Shape in Card -->
@@ -402,37 +346,382 @@
               </svg>
               <!-- Text Box -->
               <h4 class="text-xl font-bold text-white">
-                How Do I Deal With Pressure or Stress?
+                I Wll Tell You About Myself
               </h4>
               <p class="text-md font-light mt-4 text-white">
-                I enjoy the pressure of a deadline and sometimes I do my best work under pressure.
+                I always act according to a well-thought-out plan. Before making a final decision, I carefully analyze the information, consider every detail, and weigh the pros and cons.
               </p>
               <p class="text-md font-light mt-4 text-white">
-                I handle pressure really well and I stay calm during stressful situations. I think I work better under stress.
+                I am convinced that I have to work at the highest level or not deal with the problem at all, so in my professional field, I prefer to be a respected expert, to know every detail and be able to answer any question.
               </p>
               <p class="text-md font-light mt-4 text-white">
-                When it is stressful working, I think the most important thing is to prioritize my work and not get overcome (by feeling like you have too much to do).
+                I don’t pursue close personal contact in my working space, and I can come across in a situation as a cold, calculating, and emotion-devoid person. I often find it difficult to express my emotions, and I don’t like to openly demonstrate my feelings.
               </p>
               <p class="text-md font-light mt-4 text-white">
-                I focused on the task at hand (on what I am doing now) to maintain the quality of my work. 
-              </p>
-              <p class="text-md font-light mt-4 text-white">
-                I manage stress by doing yoga, having a good work-life balance, and maintaining good communication with my colleagues and with the people I work with.
+                I value friendly relations with those whom I know well and whom I trust. In communication, I show a sense of tact, always correct and diplomatic.
               </p>
             </blockquote>
           </div>
         </div>
-      </div>
-      <!-- Text Box -->
-      <div class="flex flex-wrap justify-center text-center mt-16 ">
-        <div class="w-full lg:w-6/12 px-4" data-aos="zoom-out" data-aos-delay="1000">
-          <h2 class="text-3xl font-semibold">Similar Experience</h2>
-          <p class="mt-8 text-xl text-gray-600 font-semibold hover:text-pink-600">
-            <a href="hr-assistant.html" target="_blank">Human Resources Assistant</a>
-          </p>
-          <a href="https://europlan.ru/" target="_blank"><p class="text-x2 text-gray-700 hover:text-pink-600">Europlan Leasing Company, 2012</p></a>
-        </div>
-      </div>
+        <!-- About Section -->
+        <section class="relative py-20 bg-gray-100">
+          <!-- Text Box -->
+          <div class="flex flex-wrap justify-center text-center mt-4 mb-4">
+            <div class="w-full lg:w-6/12 px-4">
+              <h2 class="text-3xl font-semibold">Similar Experience</h2>
+              <div class="text-pink-500 p-3 mt-4 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                <!-- Icon -->
+                <i class="fas text-3xl fa-angle-down"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Section Container -->
+          <div class="container mx-auto px-4 bg-gray-100">
+            <div class="items-center flex flex-wrap bg-gray-100">
+              <div class="w-full md:w-4/12 ml-auto mr-auto px-4"> 
+                <!-- Image -->
+                <img
+                  alt="..."
+                  class="max-w-full rounded-lg shadow-lg mt-12"
+                  data-aos="flip-right"
+                  src="me-ulnart.jpg"
+                />
+                <!-- Image -->
+                <img
+                  alt="..."
+                  class="max-w-full mt-12 rounded-lg shadow-lg"
+                  data-aos="flip-left"
+                  src="moj-ulmart.jpg"
+                />
+                <!-- Image -->
+                <img
+                  alt="..."
+                  class="max-w-full mt-12 rounded-lg shadow-lg"
+                  data-aos="flip-right"
+                  src="team-ulmart.jpg"
+                />
+              </div>
+              
+              <!-- Text Box Container-->
+              <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+                <div class="md:pr-12">
+                    <!-- <div class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"> -->
+                        <!-- Icon -->
+                        <!-- <i class="fas fa-rocket text-xl"></i> -->
+                    <!-- </div> -->
+                    <!-- Text Box -->
+                    <h1 class="mb-6 text-3xl font-semibold mt-24">Business Competence Center Administrator</h1>
+                    <a class="mb-2 text-2xl font-semibold hover:text-pink-600" href="https://ru.wikipedia.org/wiki/%D0%AE%D0%BB%D0%BC%D0%B0%D1%80%D1%82" target="_blank">Ulmart.ru Online Retailer</a>
+                    <h3 class="font-semibold">January 2013 – October 2013</h3>
+                    <h3 class="mb-2 font-semibold">Saint-Petersburg, Russia</h3>
+                    <p class="mt-8 text-justify text-lg leading-relaxed text-gray-600" data-aos="zoom-in-left">
+                      I worked for 2 years at the headquarters of the largest Russian online company, whose turnover amounted to more than $1 billion, according to Forbes in 2013. I started my career with this company as an Assistant in a Training Center for employees. Then I got promoted to the Business Competence Center (BCC) Administrator position. After a year of work at the BCC, I was promoted to the <a class="hover:text-pink-600" href="project-office-administrator.html" target="_blank" >Project Office Administrator position</a>.
+                    </p>  
+                    <p class="mt-8 text-justify text-lg leading-relaxed text-gray-600" data-aos="zoom-in-right">
+                      Ulmart's representative offices were located in more than 240 cities in Russia. The vehicle fleet consisted of 300 vehicles of varying tonnage. The company's assortment was represented by more than 120 thousand products, and the total assortment amounted to more than 12 million products.
+                    </p>   
+                    <p class="mt-8 text-justify text-lg leading-relaxed text-gray-600" data-aos="zoom-in-left">
+                      The corporate culture of Ulmart, built by the methods of the Business Competence Center, where I was hired to work as an administrative assistant, was so insightful from the first day that working on Friday until 11 pm was a pleasant addiction.
+                    </p>  
+                    <p class="mt-8 text-justify text-lg leading-relaxed text-gray-600" data-aos="zoom-in-right">
+                      This young energetic powerful company has set a very high bar for the conditions of self-realization, which I am still trying to find in all subsequent positions, but I have not found it yet. 
+                    </p>
+                    <p class="font-bold text-gray-800 mt-8">
+                      Proficient in:
+                    </p>
+                  <!-- List -->
+                  <ul class="list-none mt-6">
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span class="text-2xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                            <!-- Icon -->
+                            <i class="fas fa-boxes"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 class="text-gray-600">HR Document Management;</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span class="text-2xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                            <!-- Icon -->
+                            <i class="fas fa-id-card"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 class="text-gray-600">Personal Management;</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span class="text-3xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-4">
+                            <!-- Icon -->
+                            <i class="fas fa-file-excel"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 class="text-gray-600">Microsoft Office Excel;</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span class="text-3xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                            <!-- Icon -->
+                            <i class="fas fa-cubes"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 class="text-gray-600">ERP Systems Literacy;</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span class="text-3xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                            <!-- Icon -->
+                            <i class="fas fa-calculator"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 class="text-gray-600">Budget Coordination;</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span class="text-3xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                            <!-- Icon -->
+                            <i class="fas fa-headset"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 class="text-gray-600">Performer Supporting;</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span class="text-3xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                            <!-- Icon -->
+                            <i class="fas fa-file-signature"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 class="text-gray-600">Financial Reporting;</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span class="text-3xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                            <!-- Icon -->
+                            <i class="fas fa-chart-pie"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 class="text-gray-600">KPI Reporting.</h4>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="w-full md:w-5/12 px-4 mr-auto ml-auto mt-16">
+                <!-- Text Box -->
+                <!-- <div class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-500"> -->
+                  <!-- Icon -->
+                  <!-- <i class="fas fa-star text-xl"></i> -->
+                <!-- </div> -->
+                <h3 class="text-3xl mb-2 font-semibold leading-normal">
+                  Professional Experience
+                </h3>
+                <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700" data-aos="zoom-in-right">
+                  The main area of responsibility of the Assistant position was the technical implementation of administrative decisions of the Training Center.
+                  
+                <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700" data-aos="zoom-in-left">
+                  Every morning, I prepared the place where training sessions for new employees were held. These were both offline training sessions and online conferences in dozens of regions of Russia.
+                </p>  
+                <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700" data-aos="zoom-in-right">
+                  I provided the administrative organization of hundreds of training participants and technically equipped the training placement for a successful online conference, using equipment and software from Polycom. I quickly and discreetly solved technical problems together with the Ulmart Technical Support Department, making 5-10 requests a day.
+                </p>  
+                <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700" data-aos="zoom-in-left">
+                  I also organized business trips for colleagues, kept a database of training participants, made a training schedule, filled out feedback forms, and sent equipment by courier delivery.
+                </p>  
+                <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700" data-aos="zoom-in-right">
+                  After half a year, I was promoted to the Administrator position. To my responsibilities were added the functions of management and coordination of contracts and accounts.
+                </p>  
+                <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700" data-aos="zoom-in-left">
+                  I described the KPI system, which began to be introduced in the company by top managers, for the administrative department, as well as a structural work plan, Gantt diagrams, the process of concluding contracts, and coordinating payment of invoices. I have created tools for monitoring the effectiveness of the Business Competence Center. At the same time, I made monthly plans and reports on the work activities of seven workers.
+                </p>
+                <!-- List -->
+                <p class="font-bold text-gray-800 mt-8 text-justify">
+                  Main Tasks and Responsibilities
+                </p>
+                  <ul class="list-none mt-6">
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                            <!-- Icon -->
+                            <i class="fas fa-chalkboard-teacher"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 class="text-gray-600 mt-8 text-justify">
+                            Design and delivery of communication materials in an employee support system during the implementation of Human Resources programs for the development of business competencies of the talent pool.
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                            <!-- Icon -->
+                            <i class="fas fa-hands-helping"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 class="text-gray-600 mt-2 text-justify">Partnership with regional operational stakeholders to monitor, escalate, or address inquiries/issues related to employee experience or change communication.</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                            <!-- Icon -->
+                            <i class="fas fa-comment-dots"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 class="text-gray-600 mt-2 text-justify">Collecting feedback on employee experience and assessing its impact on employee experience.</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                            <!-- Icon -->
+                            <i class="fas fa-people-carry"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 class="text-gray-600 mt-2 text-justify">Soft adaptation and technical equipment of workplaces of new employees.</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span class="text-5xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                            <!-- Icon -->
+                            <i class="fas fa-file-invoice-dollar"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 class="text-gray-600 mt-2 text-justify">Audit and reporting of employees' business trips expenses.</h4>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="flex items-center">
+                        <div>
+                          <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                            <!-- Icon -->
+                            <i class="fas fa-tasks"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 class="text-gray-600 mt-2 text-justify">Verification and consolidation reports of KPI.</h4>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                <!-- <a
+                  href="https://www.creative-tim.com/framework/tailwind-starter-kit"
+                  class="font-bold text-gray-800 mt-8"
+                  >Check Tailwind Starter Kit!
+                </a> -->
+              </div>
+
+              <!-- Image Cap & Text Card -->
+              <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-12">
+                <!-- Image -->
+                <img
+                  alt="..."
+                  class="max-w-full mt-12 rounded-lg shadow-lg mb-12"
+                  data-aos="flip-right"
+                  src="u-ulmart-2.jpg"
+                />
+                <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-500">
+                  <!-- Image -->
+                  <img
+                    alt="Sasha Zhukova"
+                    src="u-ulmart.jpg"
+                    class="w-full align-middle rounded-t-lg"
+                  />
+                  <blockquote class="relative p-8 mb-4">
+                    <!-- Making Polygon Shape in Card -->
+                    <svg
+                      preserveAspectRatio="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 583 95"
+                      class="absolute left-0 w-full block"
+                      style="height: 95px; top: -94px;"
+                    >
+                      <polygon
+                        points="-30,95 583,95 583,65"
+                        class="text-pink-500 fill-current"
+                      ></polygon>
+                    </svg>
+                    <!-- Text Box -->
+                    <h4 class="text-xl font-bold text-white">
+                      How Do I Deal With Pressure or Stress?
+                    </h4>
+                    <p class="text-md font-light mt-4 text-white">
+                      I enjoy the pressure of a deadline and sometimes I do my best work under pressure.
+                    </p>
+                    <p class="text-md font-light mt-4 text-white">
+                      I handle pressure really well and I stay calm during stressful situations. I think I work better under stress.
+                    </p>
+                    <p class="text-md font-light mt-4 text-white">
+                      When it is stressful working, I think the most important thing is to prioritize my work and not get overcome (by feeling like you have too much to do).
+                    </p>
+                    <p class="text-md font-light mt-4 text-white">
+                      I focused on the task at hand (on what I am doing now) to maintain the quality of my work. 
+                    </p>
+                    <p class="text-md font-light mt-4 text-white">
+                      I manage stress by doing yoga, having a good work-life balance, and maintaining good communication with my colleagues and with the people I work with.
+                    </p>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Text Box -->
+          <div class="flex flex-wrap justify-center text-center mt-16 ">
+            <div class="w-full lg:w-6/12 px-4" data-aos="zoom-out">
+              <h2 class="text-3xl font-semibold">Next Experience</h2>
+              <p class="mt-8 text-xl text-gray-600 font-semibold hover:text-pink-600">
+                <a href="hr-manager.html" target="_blank">Project Administrator</a>
+              </p>
+              <p class="text-x2 text-gray-700">Saint-Petersburg, 2013-2014</p>
+            </div>
+          </div>
     </div>
   </section>
   <!-- End of About Section -->  
