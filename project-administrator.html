@@ -25,11 +25,11 @@
     <!-- Tailwind Library - getting CSS framework packed -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"/>
 </head>
-<body class="text-gray-800 antialiased bg-gray-100">
+<body class="text-gray-800 antialiased bg-blueGray-400">
 
   <!-- Navigation -->
-  <nav class="fixed overflow-scroll top-0 z-50 w-full bg-black active\:bg-pink-600 flex justify-between px-2 py-3 navbar-expand">
-    <div class="container flex static sm:flex-nowrap px-4 mx-auto items-center">
+  <nav class="fixed overflow-x-auto top-0 left-0 z-50 w-full bg-blueGray-800 flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+    <div class="container px-4 mx-auto flex flex-row items-center justify-between">
       <!-- Home icon -->
       <a class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-no-wrap text-white" 
         href="index.html#play" target="_blank">
@@ -39,7 +39,7 @@
         </i>
       </a>
       <!-- Nav Left Side -->
-      <div class="w-full relative flex-row justify-between whitespace-nowrap w-auto static block justify-start">
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
         <button class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-no-wrap text-white" onclick="javascript:history.back(); return false;">
           <!-- Nav Title -->
           back
@@ -67,7 +67,7 @@
         </a> 
       </div>
       <!-- Caleydo icon -->
-      <a class="text-sm relative font-bold leading-relaxed mr-8 py-2 whitespace-no-wrap text-white" 
+      <a class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap text-white" 
         href="index.html#caleydo" target="_blank">
         <!-- Icon -->
         <i>
@@ -75,7 +75,7 @@
         </i>
       </a>
       <!-- Nav Right Side -->
-      <ul class="invisible lg:visible flex px-3 list-none">
+      <ul class="invisible lg:visible flex flex-row lg:flex-row list-none lg:ml-auto">
         <!-- Social Media Button -->
         <li class="flex">
           <a class="lg:text-white lg:hover:text-gray-300 text-gray-200 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
@@ -107,17 +107,11 @@
   <!-- End of Navigation -->
 
   <!-- About Section -->
-  <section class="static py-20 bg-gray-100">
-    <!-- Making Polygon Shape in Background -->
-    <div
-      class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-      style="height: 80px; transform: translateZ(0);"
-    >
-      
-    </div>
+  <section class="static py-20 blueGray-400">
+    </div class="bg-blueGray-400">
     <!-- Section Container -->
-    <div class="container mx-auto px-4">
-      <div class="items-center flex flex-wrap">
+    <div class="bg-blueGray-400 container mx-auto px-4">
+      <div class="items-center bg-blueGray-400 flex flex-wrap">
         <div class="w-full md:w-4/12 ml-auto mr-auto px-4"> 
           <!-- Image -->
           <img
@@ -136,7 +130,7 @@
         </div>
         
         <!-- Text Box Container-->
-        <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+        <div class="w-full md:w-5/12 ml-auto mr-auto px-4 bg-blueGray-400">
           <div class="md:pr-12">
               <!-- <div class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"> -->
                   <!-- Icon -->
@@ -147,19 +141,19 @@
               <a class="mb-2 text-2xl font-semibold hover:text-pink-600" href="https://ru.wikipedia.org/wiki/%D0%AE%D0%BB%D0%BC%D0%B0%D1%80%D1%82" target="_blank">Ulmart.ru Online Retailer</a>
               <h3 class="font-semibold">October 2013 - October 2014</h3>
               <h3 class="mb-2 font-semibold">Saint-Petersburg, Russia</h3>
-              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-600" data-aos="zoom-in-left">
-                While I was working at the <a class="hover:text-pink-600" href="hr-manager.html" target="_blank">Business Competence Center (BCC)</a>, the company kept growing and increasing its capacity. New large projects appeared and needed to be professionally managed. It was necessary to solve uncontrolled areas of responsibility. Ulmart launched the creation of a Project Office Department for Project Portfolio management.
+              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-900" data-aos="zoom-in-left">
+                Ulmart continued to grow and expand its capabilities while I was working at the <a class="text-pink-600 hover:underline" href="hr-manager.html" target="_blank">Business Competence Center (BCC)</a>. New large projects developed that required skilled management. It was necessary to solve uncontrolled areas of responsibility. Ulmart has established a Project Office Department to handle project portfolios.
               </p>  
-              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-600" data-aos="zoom-in-right">  
-                In February 2013, a new version of the Ulmart online store was launched. At the end of 2013, the company's sales exceeded $1 billion, and Ulmart took first place in the rating of the Russian Forbes "20 largest online stores in Russia." In the same year, the company began to diversify its assortment, adding equipment for computers and laptops, digital and household appliances, children's goods, and toys.
+              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-900" data-aos="zoom-in-right">  
+                In 2013, Ulmart updated their online store. With sales exceeding $1 billion, Ulmart was placed first in Forbes' Russian list of the "20 biggest internet shops in Russia."
               </p> 
-              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-600" data-aos="zoom-in-left">
-                In the spring of 2014, Ulmart gained a stake in Dream Industries (Zvooq music service and Bookmate book service). Later, the services were integrated with the Ulmart.ru platform. In the autumn of the same year, Ulmart bought out 100% of the shares of Sputnikovaya Kompaniya LLC, which manages the No Limit Electronics network (the largest distributor of Tricolor TV).
+              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-900" data-aos="zoom-in-left">
+                The corporation expanded its product line in the same year, adding computer and laptop accessories, digital and home appliances, children's things, and toys to the mix. The Zvooq music and Bookmate book services were eventually merged into the Ulmart.ru platform.
               </p>  
-              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-600" data-aos="zoom-in-right">  
-                At the same time, after one year of work at the BCC, I got the maximum of my fulfillment, and I was supposed to offer my candidacy to the new Project Office as a Project Administrator. This position was one of the vacancies in the new team, led by a professional project manager, Ivan Korenkov, who was part of the group of translators into Russian of the Guide to the Project Management Body of Knowledge (PMBOK® Guide) from the Project Management Institute (PMI). 
+              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-900" data-aos="zoom-in-right">  
+                I was meant to propose my candidacy to the new Ulmart's Project Office as a Project Administrator after one year of service at the BCC. This was one of the openings in the new team, which was led by Ivan Korenkov, a professional project manager who was part of the group of Russian translators for the Project Management Institute's Guide to the Project Management Body of Knowledge (PMBOK® Guide) (PMI). 
               </p>
-              <p class="font-bold text-gray-800 mt-8">
+              <p class="font-bold text-gray-900 mt-8">
                 Proficient in:
               </p>
             <!-- List -->
@@ -173,7 +167,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Communication Skills;</h4>
+                    <h4 class="text-gray-900">Communication;</h4>
                   </div>
                 </div>
               </li>
@@ -186,7 +180,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Good Attention to Detail;</h4>
+                    <h4 class="text-gray-900">Excellent attention to detail;</h4>
                   </div>
                 </div>
               </li>
@@ -199,7 +193,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Project Management Skills;</h4>
+                    <h4 class="text-gray-900">Project management skills;</h4>
                   </div>
                 </div>
               </li>
@@ -212,7 +206,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Advanced Knowledge of MS Office Excel;</h4>
+                    <h4 class="text-gray-900">MS Office Excel advanced knowledge;</h4>
                   </div>
                 </div>
               </li>
@@ -225,7 +219,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Ability to Understand Financial Statements;</h4>
+                    <h4 class="text-gray-900">Understanding of Financial Statements;</h4>
                   </div>
                 </div>
               </li>
@@ -238,7 +232,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Ability to Analyze Annual Business Results and Operating Plans;</h4>
+                    <h4 class="text-gray-900">Examining annual financial results and business plans;</h4>
                   </div>
                 </div>
               </li>
@@ -251,7 +245,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Good understanding of process mapping and optimization using Visio.</h4>
+                    <h4 class="text-gray-900">Good understanding of process mapping and optimization using infographic.</h4>
                   </div>
                 </div>
               </li>
@@ -264,23 +258,23 @@
             <!-- Icon -->
             <!-- <i class="fas fa-star text-xl"></i> -->
           <!-- </div> -->
-          <h3 class="text-3xl mb-2 font-semibold leading-normal">
+          <h3 class="text-3xl mb-2 text-gray-900 font-semibold leading-normal">
             Professional Experience
           </h3>
-          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700" data-aos="zoom-in-right">
-            As a Project Office Administrator, I did very enjoyable work, which consisted of studying the PMBOK® Guide and applying this knowledge of Project Management in practice in a new Project Office that was being created in real-time.
+          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-900" data-aos="zoom-in-right">
+            As a Project Office Administrator, I had a lot of enjoyable studying the PMBOK® Guide and putting my project management expertise into practice in a new Project Office that was being built in real time.
           </p>  
-          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700" data-aos="zoom-in-left">  
-            I have described and developed tools for managing a portfolio of about 10-15 IT projects, the purpose of which was to increase the efficiency of top management and reduce administrative costs. These were tools for initiating and registering projects, for project planning and project reports, for collecting and organizing information on projects, and I also wrote down the archival history of projects and their results.
+          <p class="text-lg text-justify leading-relaxed mt-6 mb-4 text-gray-900" data-aos="zoom-in-left">  
+            I outlined and designed solutions for managing a portfolio of roughly 10-15 IT projects with the goal of increasing top management efficiency and lowering administrative costs. These were tools for starting and registering projects, planning and reporting projects, gathering and organizing project information, and writing down the archival history of projects and their outcomes.
           </p>  
-          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700" data-aos="zoom-in-right">  
-            Every working day I had 3-5 meetings with project managers to discuss and consult on the project management process based on the current results of IT projects. When I was given to describe the business process of Project Management, the project manager's vision of this process was important to me, so we devoted a lot of time to the business analysis of Project Management in these meetings. Our discussion led me to another difficult task related to Project Financing.
+          <p class="text-lg text-justify leading-relaxed mt-6 mb-4 text-gray-900" data-aos="zoom-in-right">  
+             When I was given the task of describing the Project Management business process, the project manager's perspective on the process was critical to me, therefore we spent a lot of time in these sessions discussing Project Management business analysis. Every working day, I had 3-5 meetings with project managers and our conversation led to a new project financing challenge for me.
           </p>  
-          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700" data-aos="zoom-in-left">  
-            Thus, to my responsibilities were added the development and description of the process of financing projects in conjunction with the Financial Director. Every week, colleagues from the Finance Department came to our Project Office to build a project financing process. The Financial Project Management System takes into account the costs spent on IT project resources and unpredictable payments during the implementation of projects, as well as profit-taking after account taxes, called a margin.
+          <p class="text-lg text-justify leading-relaxed mt-6 mb-4 text-gray-900" data-aos="zoom-in-left">  
+            As a result, in collaboration with the Financial Director, I added the development and description of the project financing process to my responsibilities. Every week, Finance Department colleagues came to our Project Office to develop a project finance method.
           </p>  
-          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700" data-aos="zoom-in-right">  
-            During the whole year of work in the Project Office, it was my inalienable duty to analyze and structure the projects' data for the presentation of reports to the Board of Directors and investors of Ulmart every week.
+          <p class="text-lg text-justify leading-relaxed mt-6 mb-4 text-gray-900" data-aos="zoom-in-right">  
+            Throughout my year at the Project Office, it was my unalienable duty to analyze and arrange project data in order to submit weekly reports to Ulmart's Board of Directors and investors.
           </p>
           <!-- List -->
           <p class="font-bold text-gray-800 mt-8">
@@ -296,7 +290,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Participate in forming Project Teams.</h4>
+                    <h4 class="text-gray-900">Participate in forming Project Teams.</h4>
                   </div>
                 </div>
               </li>
@@ -309,7 +303,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Report making in establishing a Project Budget.</h4>
+                    <h4 class="text-gray-900">Report making in establishing a Project Budget.</h4>
                   </div>
                 </div>
               </li>
@@ -322,7 +316,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Creating quality tools for Analysis, providing an immediate and permanent fix for service defects.</h4>
+                    <h4 class="text-gray-900">Creating quality tools for Analysis, providing an immediate and permanent fix for service defects.</h4>
                   </div>
                 </div>
               </li>
@@ -335,7 +329,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Defining project requirements by identifying project milestones, phases, and elements.</h4>
+                    <h4 class="text-gray-900">Defining project requirements by identifying project milestones, phases, and elements.</h4>
                   </div>
                 </div>
               </li>
@@ -348,7 +342,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Responsibility for the delivery of change projects and programs for the finance function.</h4>
+                    <h4 class="text-gray-900">Responsibility for the delivery of change projects and programs for the finance function.</h4>
                   </div>
                 </div>
               </li>
@@ -361,7 +355,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Using tools for analysis, providing an immediate and permanent fix for Project Management's defects.</h4>
+                    <h4 class="text-gray-900">Using tools for analysis, providing an immediate and permanent fix for Project Management's defects.</h4>
                   </div>
                 </div>
               </li>
@@ -401,20 +395,20 @@
                 Manifestations of Skills: Recognized
               </h4>
               <p class="text-md font-light mt-4 text-white">
-                I believe that creativity is the key to a successful solution. <br>
-                I would have to notice that one of my skill-enhancing situations happened when I had the ability to find a creative solution in the first working steps.
+                I feel that the key to a successful solution is innovation and creativity. <br>
+                One of my skill-enhancing scenarios occurred when I was able to come up with an innovative solution within the initial working phases.
               </p>
               <p class="text-md font-light mt-4 text-white">
-                It happened in one of my previous positions as a Project Administrator at the largest online store, during the height of the sales season, when I analyzed site capacity metrics and their impact on site working speed.
+                It happened during one of my former jobs as a Project Administrator at the largest online retailer, while I was analyzing site capacity data and their influence on site operating speed during the peak of the sales season.
               </p>  
               <p class="text-md font-light mt-4 text-white"> 
-                A developer and I combined a lot of different large databases into one small database. We needed to create some kind of tool for IT project owners, on the basis of which top-management decisions were made. All that was required of me was some spreadsheets for discussion at daily meetings. But I did a bit more.
+                My developer colleague and I consolidated a number of enormous databases into a single compact database. We needed to design a tool for IT project owners that could be used to make top-level decisions. All that was expected of me were some spreadsheets for daily meetings. But I went above and above.
               </p>  
               <p class="text-md font-light mt-4 text-white">  
-                My infographic with visualization of information in graphs and diagrams turned out to be so practical that it was shown on monitors in the open space for IT teams, and thanks to my work, the daily 15-minute offline meetings were canceled. As a result, it saved the time of 40 employees.
+                My infographic, which included data visualization in graphs and diagrams, was so useful that it was shown on monitors in the open area for IT teams, and the daily 15-minute offline sessions were eliminated as a result of my efforts. It saved 40 employees' time as a result of this.
               </p>
               <p class="text-md font-light mt-4 text-white">
-                It saved about $437 per month for each top manager.
+                It saved each top manager almost $430 per month.
               </p>
             </blockquote>
           </div>
@@ -425,7 +419,7 @@
       <div class="flex flex-wrap justify-center text-center mt-24 mb-4">
         <div class="w-full lg:w-6/12 px-4">
           <h2 class="text-3xl font-semibold">Similar Experience</h2>
-          <div class="text-pink-500 p-3 mt-4 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+          <div class="text-pink-500 p-3 mt-4 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-gray-200">
             <!-- Icon -->
             <i class="fas text-3xl fa-angle-down"></i>
           </div>
@@ -435,9 +429,9 @@
     </section>
   <!-- End of About Section -->
   <!-- About Section -->
-  <section class="relative bg-gray-100">
+  <section class="relative blueGray-400">
     <!-- Section Container -->
-    <div class="container mx-auto px-4 bg-gray-100">
+    <div class="container mx-auto px-4 blueGray-400">
       <div class="items-center flex flex-wrap">
         <div class="w-full md:w-4/12 ml-auto mr-auto px-4"> 
           <!-- Image -->
@@ -471,20 +465,20 @@
                   <!-- <i class="fas fa-rocket text-xl"></i> -->
               <!-- </div> -->
               <!-- Text Box -->
-              <h1 class="mb-6 text-3xl font-semibold">Project Administrator</h1>
+              <h1 class="mb-6 text-3xl text-gray-900 font-semibold">Project Administrator</h1>
               <a class="mb-2 text-2xl font-semibold hover:text-pink-600" href="https://btcgroup.ru/en/front-page/" target="_blank">Industrial Complex BTC Group Inc.</a>
-              <h3 class="font-semibold">October 2014 - February 2015</h3>
-              <h3 class="mb-2 font-semibold">Saint-Petersburg, Russia</h3>
-              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-600" data-aos="zoom-in-left">
+              <h3 class="font-semibold text-gray-900">October 2014 - February 2015</h3>
+              <h3 class="mb-2 font-semibold text-gray-900">Saint-Petersburg, Russia</h3>
+              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-900" data-aos="zoom-in-left">
                 When the processes of the <a class="hover:text-pink-600" href="project-office-administrator.html" target="_blank">Ulmart Project Office</a>, built by me and my colleagues, began to work automatically and the volume of my work decreased significantly, I decided to try myself in the same role as a Project Administrator in the largest industrial complex of the consumer goods industry in Russia, the BTC Group. 
               </p>  
-              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-600" data-aos="zoom-in-right">  
+              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-900" data-aos="zoom-in-right">  
                 BTC Group develops high-tech tactical clothing using home-made flame-resistant, wind-protective, and water-repellent materials. Their product solutions cover the range from multifunctional suits for heavy industrial and climatic conditions to providing employees of enterprises with uniform clothing.
               </p>
-              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-600" data-aos="zoom-in-left">
+              <p class="mt-8 text-lg text-justify leading-relaxed text-gray-900" data-aos="zoom-in-left">
                 The processes of the Project Management Sales Department (PMSD) of BTC Group, where I was hired to work as an experienced project administrator, were so clearly built that the Project Management perfectly ensured the effective implementation of all stages of projects - from the development of tailored models for individual customers’ needs to the preparation of all technical documents.
               </p>
-              <p class="font-bold text-gray-800 mt-8">
+              <p class="font-bold text-gray-900 mt-8">
                 Proficient in:
               </p>
             <!-- List -->
@@ -498,7 +492,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Project Reporting;</h4>
+                    <h4 class="text-gray-900">Project Reporting;</h4>
                   </div>
                 </div>
               </li>
@@ -511,7 +505,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Project Execution Control;</h4>
+                    <h4 class="text-gray-900">Project Execution Control;</h4>
                   </div>
                 </div>
               </li>
@@ -524,7 +518,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Conduct of Negotiations;</h4>
+                    <h4 class="text-gray-900">Conduct of Negotiations;</h4>
                   </div>
                 </div>
               </li>
@@ -537,7 +531,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Database Architecture;</h4>
+                    <h4 class="text-gray-900">Database Architecture;</h4>
                   </div>
                 </div>
               </li>
@@ -550,7 +544,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600">Document Management.</h4>
+                    <h4 class="text-gray-900">Document Management.</h4>
                   </div>
                 </div>
               </li>
@@ -563,23 +557,23 @@
             <!-- Icon -->
             <!-- <i class="fas fa-star text-xl"></i> -->
           <!-- </div> -->
-          <h3 class="text-3xl mb-2 font-semibold leading-normal">
+          <h3 class="text-3xl mb-2 text-gray-900 font-semibold leading-normal">
             Professional Experience
           </h3>
-          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700" data-aos="zoom-in-right">
+          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-900" data-aos="zoom-in-right">
             The PMSD provides the complete cycle of manufacturing clothing: cutting, tailoring, and final processing of finished garments of varying complexity and design. My colleagues were four more project administrators, whose areas of responsibility included project management in certain areas of production.
           </p>
-          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700" data-aos="zoom-in-left">
+          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-900" data-aos="zoom-in-left">
             My area of responsibility included the management of 15-20 projects for the production of professional uniforms and special clothing for aviation workers (e.g., Rossiya Airlines JSC) and railway conductors (e.g., Russian Railways JSCO).
           </p>
-          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700" data-aos="zoom-in-right">
+          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-900" data-aos="zoom-in-right">
             I coordinated the interaction of all structural divisions of the factory at all stages of project execution. This included identifying and solving problems, analyzing projects' risks, and keeping variations and errors in production processes.
           </p>
-          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-700" data-aos="zoom-in-left">  
+          <p class="text-lg text-justify leading-relaxed mt-8 mb-4 text-gray-900" data-aos="zoom-in-left">  
             Every day I held meetings and recorded the decisions made on 3-5 projects by project managers, sales managers, designers, fabric and accessories suppliers, production department, and project office.
           </p>
           <!-- List -->
-          <p class="font-bold text-gray-800 mt-8">
+          <p class="font-bold text-gray-900 mt-8">
             Main Tasks and Responsibilities
           </p>
             <ul class="list-none mt-6">
@@ -592,7 +586,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600 text-justify">
+                    <h4 class="text-gray-900 text-justify">
                       Collaborate with Project Managers and other functional teams (Development, QA, Design, Maintenance, Production) and other involved people to support overall project control delivery.
                     </h4>
                   </div>
@@ -607,7 +601,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600 text-justify">Providing expertise in Project Management by contributing to the day-to-day management of project data in a supported service area.</h4>
+                    <h4 class="text-gray-900 text-justify">Providing expertise in Project Management by contributing to the day-to-day management of project data in a supported service area.</h4>
                   </div>
                 </div>
               </li>
@@ -620,7 +614,7 @@
                     </span>
                   </div>
                   <div>
-                    <h4 class="text-gray-600 text-justify">Using Project Management tools: models, prototypes, schemes, diagrams, and templates.</h4>
+                    <h4 class="text-gray-900 text-justify">Using Project Management tools: models, prototypes, schemes, diagrams, and templates.</h4>
                   </div>
                 </div>
               </li>
@@ -681,8 +675,8 @@
       <!-- Text Box -->
       <div class="flex flex-wrap justify-center text-center mt-24 mb-24">
         <div class="w-full lg:w-6/12 px-4" data-aos="zoom-out">
-          <h2 class="text-3xl font-semibold">Next Experience</h2>
-          <p class="mt-8 text-xl text-gray-600 font-semibold hover:text-pink-600">
+          <h2 class="text-3xl text-gray-900 font-semibold">Next Experience</h2>
+          <p class="mt-8 text-xl text-gray-900 font-semibold hover:text-pink-600">
             <a href="hr-manager.html" target="_blank">Business Analyst</a>
           </p>
           <p class="text-x2 text-gray-700">Saint-Petersburg, 2015-2016</p>
@@ -694,7 +688,7 @@
   </main>
 
   <!-- Footer Section -->
-  <footer class="relative bg-gray-300 pt-8 pb-6">
+  <footer class="relative bg-blueGray-800 pt-8 pb-6">
     <!-- Making Polygon Shape in Background -->
     <div
       class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
@@ -710,7 +704,7 @@
         y="0"
       >
         <polygon
-          class="text-gray-300 fill-current"
+          class="text-blueGray-800 fill-current"
           points="2560 0 2560 100 0 100"
         ></polygon>
       </svg>
@@ -720,15 +714,15 @@
       <!-- Text Box Container -->
       <div class="flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4">
-          <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
-          <h5 class="text-lg mt-0 mb-2 text-gray-700">
+          <h4 class="text-3xl text-gray-200 font-semibold">Let's keep in touch!</h4>
+          <h5 class="text-lg mt-0 mb-2 text-gray-200">
             Find me on any of these platforms, I respond 1-2 business days.
           </h5>
           <!-- Social Media Buttons -->
           <div class="mt-6">
             <a href="https://www.facebook.com/alexwithfb" target="_blank"><i class="fab fa-facebook-square bg-white text-blue-600 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
             <a href="mailto:tosashazhukova@gmail.com" target="_blank"><i class="fab fa-dribbble bg-white text-pink-400 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
-            <a href="https://t.me/AlexWith" target="_blank"><i class="fab fa-telegram bg-white text-gray-900 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
+            <a href="https://t.me/AlexWith" target="_blank"><i class="fab fa-telegram bg-white text-blue-400 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
           </div>
         </div>
       <!-- List Container
@@ -786,11 +780,11 @@
       <!-- Footer Text -->
       <div class="flex flex-wrap items-center md:justify-between justify-center">
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-          <div class="text-sm text-gray-600 font-semibold py-1">
+          <div class="text-sm text-gray-200 font-semibold py-1">
             Copyright © 2021-2022
             <a
               href="https://taplink.cc/life_inspiration_seeker"
-              class="text-gray-600 hover:text-gray-900"
+              class="text-gray-200 hover:text-gray-900"
               >AlexWithCode</a
             >
           </div>
