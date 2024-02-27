@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <html lang="en"></html>
+    <title>sasha-zhukova-business-analyst-experience</title>
+    <!-- AOS.js -->
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="script-aos.js"></script>
+    <!-- Navigation Script -->
+    <script defer src="navbar.js"></script>
+    
+    <!-- Favicon - getting browser tab icon -->
+    <link rel="icon" href="favicon-32x32.png">
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
+    <!-- <link rel="manifest" href="/site.webmanifest">  -->
+    <!-- Font Awesome - getting vector icons and social logos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Tailwind Library - getting CSS framework packed -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"/>
+</head>
+<body class="text-gray-800 antialiased">
+
+  <!-- Navigation -->
+  <nav class="fixed overflow-x-auto top-0 z-50 w-full bg-blueGray-800 active\:bg-pink-600 flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+    <div class="container px-4 mx-auto flex flex-row items-center justify-between">
+      <!-- Home icon -->
+      <a class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap text-white" 
+        href="index.html#play" target="_blank">
+        <!-- Icon -->
+        <i>
+          <img src="favicon-32x32.png" alt="...">
+        </i>
+      </a>
+      <!-- Nav Left Side -->
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <button class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap text-white" onclick="javascript:if (!confirm('Back'))">
+          <!-- Nav Title -->
+          back
+        </button>
+        <a class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap text-white" href="hr-manager.html">
+          <!-- Nav Title -->
+          hr management
+        </a>
+        <a class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap text-white" href="project-administrator.html">
+          <!-- Nav Title -->
+          project management
+        </a>
+        <a class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap text-white" href="contract-account-coordinator.html">
+          <!-- Nav Title -->
+          contracting & accounting
+        </a>
+        <a class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap text-white" href="marketing-specialist.html">
+          <!-- Nav Title -->
+          marketing
+        </a>
+        <a class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap text-white" href="developer.html">
+          <!-- Nav Title -->
+          developing
+        </a>
+      </div>
+      <!-- Caleydo icon -->
+      <a class="text-sm font-bold leading-relaxed inline-block mr-8 py-2 whitespace-nowrap text-white" 
+        href="index.html#caleydo" target="_blank">
+        <!-- Icon -->
+        <i>
+          <img src="caleydo-2.png" alt="...">
+        </i>
+      </a>
+      <!-- Nav Right Side -->
+      <ul class="invisible lg:visible flex flex-row lg:flex-row list-none lg:ml-auto">
+        <!-- Social Media Button -->
+        <li class="flex items-center">
+          <a class="lg:text-white lg:hover:text-gray-300 text-gray-200 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
+            href="https://www.facebook.com/alexwithfb" target="_blank">
+            <!-- Icon -->
+            <i class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "></i>
+          </a>
+        </li>
+        <!-- Social Media Button -->
+        <li class="flex items-center">
+          <a class="lg:text-white lg:hover:text-gray-300 text-gray-200 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
+            href="https://www.instagram.com/life_inspiration_seeker/" target="_blank">
+            <!-- Icon -->
+            <i class="lg:text-gray-300 text-gray-500 fab fa-instagram text-lg leading-lg "></i>
+          </a>
+        </li>
+        <!-- Social Media Button -->
+        <li class="flex items-center">
+          <a class="lg:text-white lg:hover:text-gray-300 text-gray-200 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
+            href="https://t.me/AlexWith" target="_blank">
+            <!-- Icon -->
+            <i class="lg:text-gray-300 text-gray-500 fab fa-telegram text-lg leading-lg "></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <!-- End of Navigation -->
+  <main>
+    <!-- About Section -->
+    <section class="relative py-20 bg-blueGray-400">
+      <!-- Making Polygon Shape in Background -->
+      <div
+        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px; transform: translateZ(0);"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon
+            class="text-white fill-current"
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+      <!-- Section Container -->
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="flip-right"> 
+            <!-- Image -->
+            <img
+              alt="..."
+              class="max-w-full rounded-lg shadow-lg mt-12"
+              src="me-sm2.jpg"
+            />
+          </div>
+          
+          <!-- Text Box Container-->
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div class="md:pr-12">
+                <!-- <div class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"> -->
+                    <!-- Icon -->
+                    <!-- <i class="fas fa-rocket text-xl"></i> -->
+                <!-- </div> -->
+                <!-- Text Box -->
+                <h1 class="mb-6 text-2xl text-justify font-bold mt-12">BUSINESS ANALYST</h1>
+                <a class="mb-2 text-2xl font-bold hover:text-pink-600 lowercase" href="https://business.pra.ru/" target="_blank">PRAUD group ltd., consulting company</a>
+                <h3 class="font-bold">may 2015 - november 2016</h3>
+                <h3 class="mb-2 font-bold">saint-petersburg, russia</h3>
+                <p class="mt-6 text-lg text-justify leading-relaxed text-gray-900" data-aos="zoom-in-left">
+                  I was invited to join the PRAUD Group Consulting Ltd. as a Business Analyst after 4 months of seeking for a new work owing to a reduction in my <a class="hover:text-pink-600" href="project-administrator.html">Project Administrator</a> position due to the financial crisis in Russia in 2014-2015.
+                </p>
+                <p class="mt-6 text-lg text-justify leading-relaxed text-gray-900" data-aos="zoom-in-right">
+                  <a class="hover:text-pink-600" href="https://business.pra.ru/vnedrenie_informacionnyh_sistem/" target="_blank">About 20 projects</a> for the implementation and monitoring of automated control systems in Russia's leading industrial businesses were completed by the PRAUD Group Company, which has two locations in Moscow and St. Petersburg.</a>
+                </p>
+                <p class="mt-6 text-lg text-justify leading-relaxed text-gray-900" data-aos="zoom-in-left">
+                  Konstantin Komaedov, my supervisor, assigned me the task of analyzing and proposing ideas for the development of Project Management and Sales Management procedures. He also had a lack of knowledge in the company's Document Flow process, as well as control over contract execution and account activities.
+                </p>
+                <p class="font-bold text-2xl text-gray-900 mt-8">
+                  proficient in:
+                </p>
+              <!-- List -->
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-2xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-4">
+                        <!-- Icon -->
+                        <i class="fas fa-briefcase"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-900 text-lg text-justify">creation and upkeep of processes, desk procedures, and knowledge base articles;</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-2xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                        <!-- Icon -->
+                        <i class="fas fa-sitemap"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-lg text-gray-900">project management and consulting;</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-2xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                        <!-- Icon -->
+                        <i class="fas fa-business-time"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-lg text-gray-900">end-to-end process understanding;</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-2xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-4">
+                        <!-- Icon -->
+                        <i class="fas fa-compress-arrows-alt"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-900 text-lg text-justify">high level of collaboration;</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-3xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                        <!-- Icon -->
+                        <i class="fas fa-lightbulb"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-lg text-gray-900">introduction of new  concepts.</h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto mt-2">
+            <!-- Text Box -->
+            <!-- <div class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-500"> -->
+              <!-- Icon -->
+              <!-- <i class="fas fa-star text-xl"></i> -->
+            <!-- </div> -->
+            <h3 class="text-2xl text-gray-900 mb-2 font-bold leading-normal">
+              professional experience
+            </h3>
+            <p class="text-lg text-justify leading-relaxed mt-6 mb-4 text-gray-900" data-aos="zoom-in-right">
+              I've created Project Management tools and a Customer Relationship Management (CRM) system in addition to supporting the Committee of Directors with office life support.
+            </p>
+            <p class="text-lg text-justify leading-relaxed mt-6 mb-4 text-gray-900" data-aos="zoom-in-right">
+              The developer, Aleksey Uryadnikov, and I automated and implemented the Project Management and Sales procedures into the internal management 1C:Enterprise system after successful testing.
+            </p>
+            <p class="text-lg text-justify leading-relaxed mt-6 mb-4 text-gray-900" data-aos="zoom-in-left">  
+              I attended weekly meetings with project directors and sales managers, who reported to the CEO. Using the automated management web platforms I established, I kept track of job execution for the project teams and sales team in between meetings.
+            </p>
+            <p class="text-lg text-justify leading-relaxed mt-6 mb-4 text-gray-900" data-aos="zoom-in-right">
+              I looked at the existing systems to see how I might optimize the workflow process and regulate transactions on the group's accounts. I was surprised by how much time management spent phoning me to obtain a copy of the contract or even physically going to the document archive to examine the documents while I was conducting the analysis.
+            </p>
+            <p class="text-lg text-justify leading-relaxed mt-6 mb-4 text-gray-900" data-aos="zoom-in-left">
+              I developed an internal document archiving system and integrated it with the internal ERP systems.
+            </p>
+            <p class="text-lg text-justify leading-relaxed mt-6 mb-4 text-gray-900" data-aos="zoom-in-right">
+              It was my responsibility to come up with new budgeting and spending methods for financial and operational reporting, as well as to guarantee that contractual and accounting processes were followed effectively, in compliance with strict company standards.
+            </p>
+            <p class="text-lg text-justify leading-relaxed mt-6 mb-4 text-gray-900" data-aos="zoom-in-left">
+              On a regular basis, it was also necessary to keep resolution of claims and disputes under documents, track of deadlines, invoice payment, and reporting.
+            </p>
+            <!-- List -->
+            <p class="font-bold text-2xl text-gray-900 mt-8">
+              main successes and achievements
+            </p>
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-5xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                        <!-- Icon -->
+                        <i class="fas fa-file-invoice-dollar"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-900 text-lg text-justify">Controlling of payment of outgoing invoices.</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-4xl  font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600   mr-5">
+                        <!-- Icon -->
+                        <i class="fas fa-server"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-900 text-lg text-justify">Providing recommendations on data administration.</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                        <!-- Icon -->
+                        <i class="fas fa-info-circle"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-900 text-lg text-justify">Understanding and communicating the financial and operational impact of any changes.</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-4xl  font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600   mr-5">
+                        <!-- Icon -->
+                        <i class="fas fa-chart-line"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <p class="text-gray-900 text-lg text-justify">Auditing incoming bills and project expenses, as well as analyzing the costs of workers' business travels and ensuring that they are in line with corporate standards and budgets.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                        <!-- Icon -->
+                        <i class="fas fa-seedling"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-900 text-lg text-justify">Examining, assessing, and offering recommendations for project teams' business needs, as well as assisting in the construction of solid business solutions.</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-4">
+                        <!-- Icon -->
+                        <i class="fab fa-connectdevelop"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-900 text-lg text-justify">Collaboration with functional teams (Development, Legal, and Maintenance) and other relevant people to assist with overall program delivery.</h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            <!-- <a
+              href="https://www.creative-tim.com/framework/tailwind-starter-kit"
+              class="font-bold text-gray-800 mt-8"
+              >Check Tailwind Starter Kit!
+            </a> -->
+          </div>
+
+          <!-- Image Cap & Text Card -->
+          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-12">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-500">
+              <!-- Image -->
+              <img
+                alt="Sasha Zhukova"
+                src="difficult-task.jpg"
+                class="w-full align-middle rounded-t-lg"
+              />
+              <blockquote class="relative p-8 mb-4">
+                <!-- Making Polygon Shape in Card -->
+                <svg
+                  preserveAspectRatio="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 583 95"
+                  class="absolute left-0 w-full block"
+                  style="height: 95px; top: -94px;"
+                >
+                  <polygon
+                    points="-30,95 583,95 583,65"
+                    class="text-pink-500 fill-current"
+                  ></polygon>
+                </svg>
+                <!-- Text Box -->
+                <h4 class="text-xl font-bold text-white">
+                  A difficult task I faced and how I addressed it
+                </h4>
+                <p class="text-md leading-relaxed font-light mt-4 text-white">
+                  I was responsible for automating the Project Management and Selling Management systems that I designed for this organization in one of my prior employment as a Project Administrator.
+                </p>
+                <p class="text-md leading-relaxed font-light mt-4 text-white">
+                  The aim was to complete the transfer to the new management system without causing project deadlines to be impacted by the new working environment. I just had two months to prepare.
+                </p>
+                <p class="text-md leading-relaxed font-light mt-4 text-white">
+                  To do so, I needed to swiftly learn a new skill in process description. As a result, I used documentation on the automation of a comparable process, known as "Document Flow," to analogize the Project Management and Selling Management processes. I set out time each day for talking with developers and describing the documentation.
+                </p>
+                <p class="text-md leading-relaxed font-light mt-4 text-white">
+                  As a consequence, the automation was finished ahead of schedule. This provided me an idea of where I might go for new experiences while still doing my regular duties.
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <!-- Section Container -->
+      <div class="container mx-auto px-4">
+        <!-- Text Box -->
+        <div class="flex flex-wrap justify-center text-center mt-4 mb-4">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-3xl font-bold">similar experience</h2>
+            <div class="text-pink-500 p-3 mt-4 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-gray-200">
+              <!-- Icon -->
+              <i class="fas text-3xl fa-angle-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="flip-right"> 
+            <!-- Image -->
+            <img
+              alt="..."
+              class="max-w-full rounded shadow-lg mt-12"
+              src="me-ad2.jpg"
+            />
+          </div>
+          
+          <!-- Text Box Container-->
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div class="md:pr-12">
+                <!-- <div class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"> -->
+                    <!-- Icon -->
+                    <!-- <i class="fas fa-rocket text-xl"></i> -->
+                <!-- </div> -->
+                <!-- Text Box -->
+                <h1 class="mb-6 text-2xl text-justify font-bold mt-12">HEAD OF THE ADMINISTRATIVE DEPARTMENT</h1>
+                <p class="mb-2 text-xl font-bold">BALTINTERGROUP Itd. train transport company</a>
+                <h3 class="font-bold">november 2016 - july 2017</h3>
+                <h3 class="mb-2 font-bold">saint-petersburg, russia</h3>
+                <p class="mt-8 text-lg text-justify leading-relaxed text-gray-900" data-aos="zoom-in-left">
+                  There was a noticeable lack of document management at this tiny train service company with 25 workers that handled customs services and foreign trade.
+                </p>
+                <p class="mt-8 text-lg text-justify leading-relaxed text-gray-900" data-aos="zoom-in-right">
+                  BaltInterGruppq LLC offered rail transportation services across Russia, the CIS, Europe, and Asia.
+                </p>
+                <p class="mt-8 text-lg text-justify leading-relaxed text-gray-900" data-aos="zoom-in-right">
+                  Every day, it was dozens of transactions for the transportation of products between the CIS and Russia. For each transaction, a bundle of paperwork had to be drawn up, agreed upon, and signed, on which all of the company's workers' operations were carried out.
+                </p>  
+                <p class="mt-8 text-lg text-justify leading-relaxed text-gray-900" data-aos="zoom-in-left">
+                  There was no procedure for storing and reporting papers prior to my arrival. In the Administrative Department, there was just one person who didn't have enough time to handle everything, including creating and improving the document management system. 
+                </p>
+                <p class="font-bold text-2xl text-gray-900 mt-8">
+                  proficient in:
+                </p>
+              <!-- List -->
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-3xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-5">
+                        <!-- Icon -->
+                        <i class="fas fa-fist-raised"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-lg text-gray-900">outstanding management;</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-2xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-4">
+                        <!-- Icon -->
+                        <i class="fab fa-leanpub"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-lg text-gray-900">ongoing training for the team;</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-2xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                        <!-- Icon -->
+                        <i class="fas fa-users"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-lg text-gray-900">leadership experiences, both formal and informal.</h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto mt-0">
+            <!-- Text Box -->
+            <!-- <div class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-500"> -->
+              <!-- Icon -->
+              <!-- <i class="fas fa-star text-xl"></i> -->
+            <!-- </div> -->
+            <h3 class="text-2xl mb-2 font-bold leading-normal">
+              professional experience
+            </h3>
+            <p class="text-lg text-justify leading-relaxed mt-6 mb-4 text-gray-900" data-aos="zoom-in-right">
+              My substantial administrative and documentation support to top management in making decisions was a highly valuable role because the CEO was nearly always out for business meetings.
+            </p>
+            <p class="text-lg text-justify leading-relaxed mt-6 mb-4 text-gray-900" data-aos="zoom-in-right">
+              The construction, development, and maintenance of electronic document management systems for the capacity to oversee business online were among my responsibilities. Bitrix24 software was utilized.
+            </p>
+            <p class="text-lg text-justify leading-relaxed mt-6 mb-4 text-gray-900" data-aos="zoom-in-left">
+              I hired and educated a team of three persons with expertise in administration and document management to ensure that operations ran smoothly. I attended contract discussions and managed financial transactions to ensure that all procedures were successfully integrated.
+            </p>
+            <p class="text-lg text-justify leading-relaxed mt-6 mb-4 text-gray-900" data-aos="zoom-in-right">
+              For the administrative department, I created a KPI system as well as project management tools. I assisted with contract negotiations and financial transactions coordination. 
+            </p>
+            <!-- List -->
+            <p class="font-bold text-2xl text-gray-900 mt-8">
+              main successes and achievements
+            </p>
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                        <!-- Icon -->
+                        <i class="fas fa-check-double"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-900 text-lg text-justify">Accountability for driving standardization and continuous improvement.</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                        <!-- Icon -->
+                        <i class="fas fa-list-ol"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-900 text-lg text-justify">Taking charge of and guiding the implementation of a new procedure through the use of well-defined action plans.</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                        <!-- Icon -->
+                        <i class="fas fa-chart-area"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-900 text-lg text-justify">Analysis and feedback collection for smaller or less complex processes and procedures.</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 mr-3">
+                        <!-- Icon -->
+                        <i class="fas fa-chart-pie"></i>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-900 text-lg text-justify">Using KPI indicators, identify opportunities for continuous process improvement and future investment to increase efficiency and improve employee experience.</h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            <!-- <a
+              href="https://www.creative-tim.com/framework/tailwind-starter-kit"
+              class="font-bold text-gray-800 mt-8"
+              >Check Tailwind Starter Kit!
+            </a> -->
+          </div>
+
+          <!-- Image Cap & Text Card -->
+          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-12">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-500">
+              <!-- Image -->
+              <img
+                alt="Sasha Zhukova"
+                src="difficulties.jpg"
+                class="w-full align-middle rounded-t-lg"
+              />
+              <blockquote class="relative p-8 mb-4">
+                <!-- Making Polygon Shape in Card -->
+                <svg
+                  preserveAspectRatio="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 583 95"
+                  class="absolute left-0 w-full block"
+                  style="height: 95px; top: -94px;"
+                >
+                  <polygon
+                    points="-30,95 583,95 583,65"
+                    class="text-pink-500 fill-current"
+                  ></polygon>
+                </svg>
+                <!-- Text Box -->
+                <h4 class="text-xl font-bold text-white">
+                  What was the hardest decision I made?
+                </h4>
+                <p class="text-md leading-relaxed font-light mt-4 text-white">
+                  When I was hired as the lead clerk at a small transportation firm with a little (no) administrative disarray, I was given carte blanche to get things in order.
+                </p>  
+                <p class="text-md leading-relaxed font-light mt-4 text-white">
+                  I had one employee who was just responsible for all administrative concerns in this organization and was subordinated to working in my team. My investigation of difficulties in the administrative sector revealed that my junior employee was incompetent, and she was the one who consistently made mistakes.
+                </p>
+                <p class="text-md leading-relaxed font-light mt-4 text-white">
+                  I started teaching my colleague, passing on my expertise of how to handle the document flow. We updated the document registers and developed the framework of document flow across departments thanks to her extensive understanding of the company's internal operations.
+                </p>
+                <p class="text-md leading-relaxed font-light mt-4 text-white">
+                  However, I was confronted with the most challenging psychotype I had ever encountered in my professional life. After a time, my colleague continued to repeat the same mistakes with increasing regularity... just because she refused to "alter habits."
+                </p>
+                <p class="text-md leading-relaxed font-light mt-4 text-white">
+                  Because of my expertise as an HR manager, I had no option but to suggest to the CEO that the specialist I could choose be changed.
+                </p>
+                <p class="text-md leading-relaxed font-light mt-4 text-white">  
+                  Furthermore, in addition to the existing role, I was given permission to hire two more people. So I let rid of one person in exchange for three others, and we had a fantastic and productive team!
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <!-- Text Box -->
+        <div class="flex flex-wrap justify-center text-center mt-12">
+          <div class="w-full lg:w-6/12 px-4" data-aos="zoom-out">
+            <h2 class="text-3xl font-bold">next experience</h2>
+            <p class="mt-6 text-xl text-gray-900 font-semibold hover:text-pink-600">
+              <a href="contract-account-coordinator.html">contract & accounting coordinator</a>
+            </p>
+            <p class="text-x2 text-gray-900">saint-petersburg, 2018-2020</p></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of About Section -->  
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="relative bg-blueGray-800 pt-8 pb-6">
+    <!-- Making Polygon Shape in Background -->
+    <div
+      class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+      style="height: 80px; transform: translateZ(0);"
+    >
+      <svg
+        class="absolute bottom-0 overflow-hidden"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        version="1.1"
+        viewBox="0 0 2560 100"
+        x="0"
+        y="0"
+      >
+        <polygon
+          class="text-blueGray-800 fill-current"
+          points="2560 0 2560 100 0 100"
+        ></polygon>
+      </svg>
+    </div>
+    <!-- Section Container -->
+    <div class="container mx-auto px-4">
+      <!-- Text Box Container -->
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-6/12 px-4">
+          <h4 class="text-3xl text-gray-200 font-semibold">Let's keep in touch!</h4>
+          <h5 class="text-lg mt-0 mb-2 text-gray-200">
+            Find me on any of these platforms, I respond 1-2 business days.
+          </h5>
+          <!-- Social Media Buttons -->
+          <div class="mt-6">
+            <a href="https://www.facebook.com/alexwithfb" target="_blank"><i class="fab fa-facebook-square bg-white text-blue-600 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
+            <a href="mailto:tosashazhukova@gmail.com" target="_blank"><i class="fab fa-dribbble bg-white text-pink-400 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
+            <a href="https://t.me/AlexWith" target="_blank"><i class="fab fa-telegram bg-white text-gray-900 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
+          </div>
+        </div>
+      <!-- List Container
+      <div class="w-full lg:w-6/12 px-4">
+          <div class="flex flex-wrap items-top mb-6">
+            List 1
+            <div class="w-full lg:w-4/12 px-4 ml-auto">
+              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Useful Links</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://www.creative-tim.com/presentation">About Us</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://blog.creative-tim.com">Blog</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://www.github.com/creativetimofficial">Github</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://www.creative-tim.com/bootstrap-themes/free">Free Products</a>
+                </li>
+              </ul>
+            </div>
+            List 2
+            <div class="w-full lg:w-4/12 px-4">
+              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Other Resources</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md">MIT License</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://creative-tim.com/terms">Terms &amp; Conditions</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://creative-tim.com/privacy">Privacy Policy</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                     href="https://creative-tim.com/contact-us">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <!-- Line Break -->
+      <hr class="my-6 border-gray-200" />
+      <!-- Footer Text -->
+      <div class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div class="text-sm text-gray-200 font-semibold py-1">
+            Copyright © 2021-2023
+            <a
+              href="https://taplink.cc/life_inspiration_seeker"
+              class="text-gray-200"
+              >AlexWithCode</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer Section -->
+</body>
+</html>
